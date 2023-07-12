@@ -178,9 +178,10 @@ margin-right: auto;
 }
 
 /* Grid
-  ============================= */ 
+  ============================= */
+
 .row {
-  display: flex;
+display: flex;
 }
 
 ul.row {
