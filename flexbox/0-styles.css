@@ -191,7 +191,6 @@ list-style: none;
 }
 
 [class*='col-'] {
-float: none;
 padding: 0.5rem;
 }
 
