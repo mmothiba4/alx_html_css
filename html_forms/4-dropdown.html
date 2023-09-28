@@ -7,14 +7,6 @@
 </head>
 <body>
     <form action="">
-        <label for="color">Choose a color</label>
-        <select name="color" id="color">
-            <option value="red">RED</option required>
-            <Option value="green">GREEN</Option required>
-            <option value="blue">BLUE</option required>
-            <option value="yellow">YELLOW</option required>
-            <option value="orange">ORANGE</option required>
-        </select>
         <div>
             <label for="name">Name</label>
             <input type="text" id="name" name="user_name" required>
@@ -23,13 +15,14 @@
             <label for="email address">Email</label>
             <input type="email" id="email adress" name="user_email" required>
         </div>
-        <div>
-            <p>subscription prefernce</p>
-            <input type="radio" name="subscription" value="monthly">
-            <label for="monthly subscription">monthly</label><br>
-            <input type="radio" name="subscription" value="yearly">
-            <label for="yearlysubscription">yearly</label><br>
-        </div>
+        <label for="color">Choose your favorite color</label>
+        <select name="color" id="color">
+            <option value="red">RED</option required>
+            <Option value="green">GREEN</Option required>
+            <option value="blue">BLUE</option required>
+            <option value="yellow">YELLOW</option required>
+            <option value="orange">ORANGE</option required>
+        </select>
         <div>
             <button type="submit">submit the form</button>
         </div>
