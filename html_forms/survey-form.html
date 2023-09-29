@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey form</title>
 </head>
 <body>
-    <form action="">
+    <h1>Survey form</h1>
+    <form>
         <div>
             <label for="name">Name</label>
             <input type="text" id="name" name="user_name" required>
@@ -23,6 +24,14 @@
             <option value="yellow">YELLOW</option required>
             <option value="orange">ORANGE</option required>
         </select>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" min="2023-09-29" max="2023-10-15">
+        </div>
+        <div>
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" min="08:30GMT" max="16:00GMT">
+        </div>
         <div>
             <button type="submit">submit the form</button>
         </div>
